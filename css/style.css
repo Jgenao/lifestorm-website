@@ -735,3 +735,60 @@ header {
     z-index: 999;
     background: white;
 }
+.contact-form-section {
+    padding: 90px 70px;
+    background: #f8fafc;
+    text-align: center;
+}
+
+.contact-form-section h4 {
+    color: #E6A500;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+.contact-form-section h2 {
+    color: #0B2D5A;
+    font-size: 42px;
+    margin-bottom: 35px;
+}
+
+.contact-form {
+    max-width: 750px;
+    margin: 0 auto;
+    display: grid;
+    gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 16px;
+    border: 1px solid #ccd6e0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.contact-form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.form-note {
+    font-size: 14px;
+    color: #667085;
+}
+
+.contact-form button {
+    background: #0B2D5A;
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #E6A500;
+}
