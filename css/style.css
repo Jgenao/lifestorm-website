@@ -1424,4 +1424,65 @@ header {
     max-width: 340px !important;
     margin: 0 auto !important;
   }
+}@media (max-width: 768px) {
+
+  /* Stop sideways drift */
+  .philosophy-page,
+  .philosophy-content,
+  .philosophy-pillars,
+  .philosophy-blessing,
+  .philosophy-signature {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Philosophy cards stack */
+  .philosophy-pillars {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 28px !important;
+  }
+
+  .pillar {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin: 0 auto !important;
+  }
+
+  .pillar p,
+  .philosophy-blessing p,
+  .closing-message,
+  .signature-intro {
+    font-size: 22px !important;
+    line-height: 1.65 !important;
+  }
+
+  .philosophy-blessing p {
+    font-size: 30px !important;
+  }
+
+  /* Framework section */
+  .process-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 28px !important;
+    width: 100% !important;
+  }
+
+  .process-card {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin: 0 auto !important;
+  }
+
+  .arrow {
+    display: block !important;
+    transform: rotate(90deg) !important;
+    margin: 8px auto !important;
+  }
 }
