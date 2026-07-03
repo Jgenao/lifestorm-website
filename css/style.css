@@ -1249,3 +1249,97 @@ header {
         white-space: normal !important;
     }
 }
+/* ===== MOBILE REBUILD START ===== */
+/* ===== MOBILE REBUILD START ===== */
+
+@media (max-width: 768px) {
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* ABOUT SECTION */
+  section.about {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 70px 24px !important;
+    text-align: center !important;
+  }
+
+  .about-image,
+  .about-text,
+  .about-checklist {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .about-text h2 {
+    font-size: 30px !important;
+    line-height: 1.25 !important;
+    max-width: 340px !important;
+    margin: 0 auto 24px !important;
+    white-space: normal !important;
+  }
+
+  .about-text p {
+    max-width: 340px !important;
+    margin: 0 auto 24px !important;
+    font-size: 17px !important;
+    line-height: 1.65 !important;
+  }
+
+  .about-checklist {
+    max-width: 330px !important;
+    margin: 30px auto 0 !important;
+    text-align: left !important;
+  }
+
+  /* CLARITY / CONFIDENCE / DIRECTION */
+  section.benefits {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 28px !important;
+    padding: 70px 24px !important;
+    text-align: center !important;
+  }
+
+  .benefit-box {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin: 0 auto !important;
+  }
+
+  .benefit-box h3 {
+    font-size: 26px !important;
+    line-height: 1.2 !important;
+    white-space: normal !important;
+  }
+
+  .benefit-box p {
+    font-size: 17px !important;
+    line-height: 1.6 !important;
+  }
+
+  /* FRAMEWORK / PROCESS */
+  .process-grid,
+  .framework-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 28px !important;
+  }
+
+  .process-card,
+  .framework-card {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin: 0 auto !important;
+  }
+
+  .arrow {
+    transform: rotate(90deg);
+    margin: 10px auto;
+  }
+}
