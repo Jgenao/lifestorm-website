@@ -1109,3 +1109,143 @@ header {
     color:#666;
     line-height:1.8;
 }
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h1 {
+        font-size: 44px;
+        line-height: 1.1;
+    }
+
+    h2 {
+        font-size: 34px;
+        line-height: 1.15;
+    }
+
+    .testimonials h2,
+    .faq-header h2,
+    .contact-form-section h2 {
+        font-size: 34px;
+        line-height: 1.15;
+    }
+
+    .testimonial-grid,
+    .faq-container,
+    .process-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial-card,
+    .faq-item,
+    .process-card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .stars {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        padding: 70px 24px;
+        text-align: center;
+    }
+
+    .about-image,
+    .about-text,
+    .about-checklist {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .about-image img {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .about-text h2 {
+        font-size: 34px;
+        line-height: 1.18;
+    }
+
+    .about-text p {
+        font-size: 18px;
+        line-height: 1.65;
+    }
+
+    .about-checklist {
+        display: grid;
+        gap: 12px;
+        text-align: left;
+    }
+
+    .benefits {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 28px;
+        padding: 70px 24px;
+        text-align: center;
+    }
+
+    .benefit-box {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .benefit-icon {
+        font-size: 44px;
+        margin-bottom: 12px;
+    }
+
+    .benefit-box h3 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .benefit-box p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+}
+@media (max-width: 768px) {
+
+    .about {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+    }
+
+    .about-text {
+        width: 100% !important;
+        max-width: 340px !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
+
+    .about-text h2 {
+        width: 100% !important;
+        max-width: 340px !important;
+        font-size: 32px !important;
+        line-height: 1.2 !important;
+        word-break: normal !important;
+        overflow-wrap: normal !important;
+        white-space: normal !important;
+    }
+}
