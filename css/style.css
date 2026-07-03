@@ -1486,3 +1486,41 @@ header {
     margin: 8px auto !important;
   }
 }
+@media (max-width: 768px) {
+
+  .process {
+    padding: 70px 24px !important;
+    overflow-x: hidden !important;
+  }
+
+  .process-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .process-card {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin: 0 auto !important;
+    transform: none !important;
+    position: static !important;
+  }
+
+  .arrow {
+    display: none !important;
+  }
+
+  .philosophy-pillars {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  .pillar {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin: 0 auto !important;
+  }
+}
