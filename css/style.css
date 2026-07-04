@@ -1708,3 +1708,20 @@ header {
     margin: 0 auto 12px !important;
   }
 }
+@media (max-width: 768px) {
+
+.testimonial-cards {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 30px !important;
+    overflow-x: hidden !important;
+}
+
+.testimonial-card {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin: 0 auto !important;
+}
+
+}
