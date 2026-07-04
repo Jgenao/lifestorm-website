@@ -1725,3 +1725,81 @@ header {
 }
 
 }
+/* DISCOVERY SECTION */
+
+.discovery {
+    padding: 100px 10%;
+    background: #f8fafc;
+    text-align: center;
+}
+
+
+.discovery h2 {
+    font-size: 42px;
+    color: #0B2D5A;
+    margin-bottom: 25px;
+}
+
+
+.discovery-intro {
+    max-width: 750px;
+    margin: 0 auto 60px;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #555;
+}
+
+
+.discovery-steps {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+
+
+.discovery-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 18px;
+    width: 30%;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+
+.discovery-icon {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+
+.discovery-card h3 {
+    color: #0B2D5A;
+    font-size: 24px;
+}
+
+
+.discovery-card p {
+    color: #666;
+    line-height: 1.7;
+}
+@media(max-width:768px){
+
+.discovery {
+    padding:70px 24px;
+}
+
+.discovery-steps {
+    flex-direction:column;
+    align-items:center;
+}
+
+.discovery-card {
+    width:100%;
+    max-width:340px;
+}
+
+.discovery h2 {
+    font-size:32px;
+}
+
+}
