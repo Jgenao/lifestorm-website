@@ -1996,3 +1996,19 @@ header {
         font-size: 26px;
     }
 }
+.resource-link {
+    display: inline-block;
+    margin-top: 22px;
+    background: #E6A500;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.resource-link:hover {
+    background: #0B2D5A;
+    transform: translateY(-2px);
+}
