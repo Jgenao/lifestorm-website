@@ -1587,3 +1587,124 @@ header {
     position: static !important;
   }
 }
+@media screen and (max-width: 768px) {
+
+  /* 2. TESTIMONIALS */
+  section.testimonials {
+    padding: 70px 24px !important;
+    overflow-x: hidden !important;
+  }
+
+  .testimonial-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 30px !important;
+    width: 100% !important;
+  }
+
+  .testimonial-card {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+
+  .stars {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+  }
+
+  /* 3. PHILOSOPHY PAGE MOBILE SPACING */
+  .philosophy-hero,
+  .reflection,
+  .philosophy-content,
+  .philosophy-pillars,
+  .philosophy-blessing,
+  .philosophy-signature {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+  }
+
+  .philosophy-hero h1 {
+    font-size: 42px !important;
+    line-height: 1.1 !important;
+  }
+
+  .reflection-text,
+  .philosophy-content p,
+  .closing-message,
+  .signature-intro {
+    max-width: 100% !important;
+    font-size: 20px !important;
+    line-height: 1.65 !important;
+  }
+
+  .philosophy-content h2 {
+    font-size: 32px !important;
+    line-height: 1.2 !important;
+  }
+
+  .philosophy-blessing p {
+    font-size: 28px !important;
+    line-height: 1.45 !important;
+  }
+
+  /* 4. GLOBAL OVERFLOW FIX */
+  html,
+  body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  img,
+  video,
+  iframe {
+    max-width: 100% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+
+  section.testimonials .testimonial-grid {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  section.testimonials .testimonial-card {
+    display: block !important;
+    width: 100% !important;
+    max-width: 340px !important;
+    margin: 0 auto 30px auto !important;
+    float: none !important;
+    position: static !important;
+  }
+
+  section.testimonials .stars {
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 768px) {
+
+  .testimonial-cards {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 30px !important;
+    width: 100% !important;
+  }
+
+  .testimonial-card {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin: 0 auto !important;
+  }
+
+  .testimonials .stars {
+    text-align: center !important;
+    margin: 0 auto 12px !important;
+  }
+}
