@@ -2012,3 +2012,46 @@ header {
     background: #0B2D5A;
     transform: translateY(-2px);
 }
+.resources-preview {
+    background: #f4f7fb;
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.resources-preview .section-header h4 {
+    color: #f2a900;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.resources-preview .section-header h2 {
+    color: #003366;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.resources-preview .section-header p {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #333;
+    line-height: 1.8;
+}
+
+.resource-preview-card {
+    background: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 45px;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+.resource-preview-card h3 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.resource-preview-card p {
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
