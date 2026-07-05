@@ -22,4 +22,19 @@
     <priority>0.6</priority>
 </url>
 
+<url>
+    <loc>https://lifestormmgt.com/reflection-questions.html</loc>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://lifestormmgt.com/es/resources.html</loc>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://lifestormmgt.com/es/reflection-questions.html</loc>
+    <priority>0.6</priority>
+</url>
+
 </urlset>
